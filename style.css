@@ -1,0 +1,115 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #26374b;
+            color: white;
+        }
+        header img {
+            height: 50px;
+            width: auto;
+        }
+        .buttons {
+            display: flex;
+        }
+        .buttons button {
+            margin-left: 10px;
+            padding: 8px 15px;
+            background-color: #1676f5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .buttons button:hover {
+            background-color: #3d3baf;
+        }
+    
+    .titulo {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 20px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+.contenido {
+    overflow: hidden; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+}
+.descripcion {
+    float: left;
+    font-weight: 100;
+}
+.imagen-grande {
+    float: right;
+    width: 45%; 
+    margin-left: 30 px;
+    border-radius: 60px 
+}
+.botones {
+    display: flex;
+}
+.botones button {
+    display: inline-block;
+    width: 80%;
+    margin: 30px;
+    padding: 15px 30px;
+    background-color: #11c3cf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+.botones button:hover {
+    background-color: #0e65ac;
+}
+footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            width: 100%; /* Ocupa todo el ancho */
+            margin: 0; /* Elimina márgenes */
+            box-sizing: border-box; 
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap; 
+        .block {
+            margin-bottom: 10;
+            flex-basis: 20%;  
+        }
+        .block h3 {
+            margin-top: 0;
+        }
+        .social {
+            display: flex;
+            flex-direction: column;
+        }
+        .social button {
+            margin-top: 10px;
+        }
+        .subscribe button {
+            margin-top: 10px;
+            background-color: #af0707;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .subscribe button:hover {
+            background-color: #d13af7;
+        } .logo img {
+            width: 100px;  
+        }
+    </style>
