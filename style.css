@@ -50,14 +50,32 @@
 }
 .imagen-grande {
     float: right;
-    width: 45%; 
+    width: 55%; 
     margin-left: 30 px;
     border-radius: 60px 
 }
+.imagen-hotel {
+    float: right;
+    width: 55%; 
+    margin-left: 30 px;
+    border-radius: 60px 
+}
+    hr { 
+        margin: 0px 40px;
+        border-top: none;
+        border-bottom: 1px #0b4d39 solid;
+    }
 .botones {
     display: flex;
+    margin-top: 80PX;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    
+
 }
 .botones button {
+    margin-bottom: 80px
     display: inline-block;
     width: 80%;
     margin: 30px;
@@ -108,7 +126,7 @@ footer {
             cursor: pointer;
         }
         .subscribe button:hover {
-            background-color: #d13af7;
+            background-color: rgb(rgb(168, 28, 28), rgb(51, 158, 51), rgb(156, 30, 30));
         } .logo img {
             width: 100px;  
         }
