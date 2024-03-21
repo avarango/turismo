@@ -33,7 +33,7 @@ let muestraResultado = sumarPrompt();
 console.log("La suma es:", muestraResultado);
 
 function obtenerCalificacion() {
-    let calificacion = prompt("¿Qué calificación de estrellas le darías, 1-5?");
+    let calificacion = prompt("¿Qué calificación de estrellas nos darías, 1-5?");
     calificacion = parseInt(calificacion);
     return calificacion;
 }
