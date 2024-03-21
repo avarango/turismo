@@ -47,7 +47,7 @@ function mostrarImagen() {
     imagen.classList.add("estrella");  
     return imagen;
 }
-
+ 
 function mostrarImagenes() {
     let calificacion = obtenerCalificacion();
     
