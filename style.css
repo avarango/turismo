@@ -130,4 +130,8 @@ footer {
         } .logo img {
             width: 100px;  
         }
+        img.estrella {
+            width: 30px;  
+            height: auto;  
+        }
     </style>
